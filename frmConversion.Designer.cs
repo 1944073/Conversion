@@ -75,6 +75,7 @@
             this.btnHexa.TabIndex = 2;
             this.btnHexa.Text = "Hexadecimal";
             this.btnHexa.UseVisualStyleBackColor = true;
+            this.btnHexa.Click += new System.EventHandler(this.btnHexa_Click);
             // 
             // btnDecinal
             // 
@@ -85,6 +86,7 @@
             this.btnDecinal.TabIndex = 3;
             this.btnDecinal.Text = "Decimal";
             this.btnDecinal.UseVisualStyleBackColor = true;
+            this.btnDecinal.Click += new System.EventHandler(this.btnDecinal_Click);
             // 
             // txtEntree
             // 

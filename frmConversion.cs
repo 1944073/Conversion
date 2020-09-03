@@ -24,12 +24,23 @@ namespace Conversion
 
         private void btnBinaire_Click(object sender, EventArgs e)
         {
+            string Entree = txtEntree.Text;
 
         }
 
         private void btnSortie_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnHexa_Click(object sender, EventArgs e)
+        {
+            string Entree = txtEntree.Text;
+        }
+
+        private void btnDecinal_Click(object sender, EventArgs e)
+        {
+            string Entree = txtEntree.Text;
         }
     }
 }
