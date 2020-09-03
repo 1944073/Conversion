@@ -16,5 +16,10 @@ namespace Conversion
         {
             InitializeComponent();
         }
+
+        private void txtAffiche_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.txtAffiche = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // txtAffiche
+            // 
+            this.txtAffiche.Location = new System.Drawing.Point(267, 186);
+            this.txtAffiche.Name = "txtAffiche";
+            this.txtAffiche.Size = new System.Drawing.Size(114, 51);
+            this.txtAffiche.TabIndex = 0;
+            this.txtAffiche.Text = "Affiche";
+            this.txtAffiche.UseVisualStyleBackColor = true;
+            this.txtAffiche.Click += new System.EventHandler(this.txtAffiche_Click);
             // 
             // frmConversion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtAffiche);
             this.Name = "frmConversion";
             this.Text = "Conversion";
             this.ResumeLayout(false);
@@ -42,6 +54,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button txtAffiche;
     }
 }
 
