@@ -37,13 +37,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtBinaire = new System.Windows.Forms.TextBox();
+            this.txtHexa = new System.Windows.Forms.TextBox();
+            this.txtDecimal = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnBinaire
             // 
-            this.btnBinaire.Location = new System.Drawing.Point(40, 370);
+            this.btnBinaire.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBinaire.Location = new System.Drawing.Point(95, 382);
             this.btnBinaire.Name = "btnBinaire";
-            this.btnBinaire.Size = new System.Drawing.Size(114, 51);
+            this.btnBinaire.Size = new System.Drawing.Size(100, 39);
             this.btnBinaire.TabIndex = 0;
             this.btnBinaire.Text = "Binaire";
             this.btnBinaire.UseVisualStyleBackColor = true;
@@ -52,33 +56,36 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(314, 22);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(335, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.Size = new System.Drawing.Size(88, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Conversion";
             // 
             // btnHexa
             // 
-            this.btnHexa.Location = new System.Drawing.Point(317, 370);
+            this.btnHexa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHexa.Location = new System.Drawing.Point(331, 382);
             this.btnHexa.Name = "btnHexa";
-            this.btnHexa.Size = new System.Drawing.Size(114, 51);
+            this.btnHexa.Size = new System.Drawing.Size(121, 39);
             this.btnHexa.TabIndex = 2;
             this.btnHexa.Text = "Hexadecimal";
             this.btnHexa.UseVisualStyleBackColor = true;
             // 
             // btnDecinal
             // 
-            this.btnDecinal.Location = new System.Drawing.Point(542, 370);
+            this.btnDecinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDecinal.Location = new System.Drawing.Point(556, 382);
             this.btnDecinal.Name = "btnDecinal";
-            this.btnDecinal.Size = new System.Drawing.Size(114, 51);
+            this.btnDecinal.Size = new System.Drawing.Size(100, 39);
             this.btnDecinal.TabIndex = 3;
             this.btnDecinal.Text = "Decimal";
             this.btnDecinal.UseVisualStyleBackColor = true;
             // 
             // txtEntree
             // 
-            this.txtEntree.Location = new System.Drawing.Point(317, 205);
+            this.txtEntree.Location = new System.Drawing.Point(331, 229);
             this.txtEntree.Name = "txtEntree";
             this.txtEntree.Size = new System.Drawing.Size(100, 20);
             this.txtEntree.TabIndex = 4;
@@ -86,44 +93,75 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(107, 91);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(114, 84);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
+            this.label2.Size = new System.Drawing.Size(58, 20);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Conversion";
+            this.label2.Text = "Binaire";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(115, 99);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(357, 84);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.Size = new System.Drawing.Size(46, 20);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Conversion";
+            this.label3.Text = "Hexa";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(123, 107);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(574, 84);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 13);
+            this.label4.Size = new System.Drawing.Size(66, 20);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Conversion";
+            this.label4.Text = "Decimal";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(336, 189);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(357, 206);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 13);
+            this.label5.Size = new System.Drawing.Size(57, 20);
             this.label5.TabIndex = 8;
             this.label5.Text = "Entrée";
+            // 
+            // txtBinaire
+            // 
+            this.txtBinaire.Location = new System.Drawing.Point(95, 107);
+            this.txtBinaire.Name = "txtBinaire";
+            this.txtBinaire.ReadOnly = true;
+            this.txtBinaire.Size = new System.Drawing.Size(100, 20);
+            this.txtBinaire.TabIndex = 9;
+            // 
+            // txtHexa
+            // 
+            this.txtHexa.Location = new System.Drawing.Point(331, 107);
+            this.txtHexa.Name = "txtHexa";
+            this.txtHexa.ReadOnly = true;
+            this.txtHexa.Size = new System.Drawing.Size(100, 20);
+            this.txtHexa.TabIndex = 10;
+            // 
+            // txtDecimal
+            // 
+            this.txtDecimal.Location = new System.Drawing.Point(556, 107);
+            this.txtDecimal.Name = "txtDecimal";
+            this.txtDecimal.ReadOnly = true;
+            this.txtDecimal.Size = new System.Drawing.Size(100, 20);
+            this.txtDecimal.TabIndex = 11;
             // 
             // frmConversion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtDecimal);
+            this.Controls.Add(this.txtHexa);
+            this.Controls.Add(this.txtBinaire);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -151,6 +189,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtBinaire;
+        private System.Windows.Forms.TextBox txtHexa;
+        private System.Windows.Forms.TextBox txtDecimal;
     }
 }
 
