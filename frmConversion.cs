@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Zachary Gagné
+ * 2020-09-03
+ * Programme de conversion
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,12 +22,14 @@ namespace Conversion
             InitializeComponent();
         }
 
-        private void txtAffiche_Click(object sender, EventArgs e)
+        private void btnBinaire_Click(object sender, EventArgs e)
         {
-            // premier commentaire
-            // deuxième commentaire
-            // troisieme commentaire
-            // test commentaire
+
+        }
+
+        private void btnSortie_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

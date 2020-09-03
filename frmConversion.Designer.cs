@@ -54,7 +54,7 @@
             this.btnBinaire.TabIndex = 0;
             this.btnBinaire.Text = "Binaire";
             this.btnBinaire.UseVisualStyleBackColor = true;
-            this.btnBinaire.Click += new System.EventHandler(this.txtAffiche_Click);
+            this.btnBinaire.Click += new System.EventHandler(this.btnBinaire_Click);
             // 
             // label1
             // 
@@ -180,6 +180,7 @@
             this.btnSortie.TabIndex = 13;
             this.btnSortie.Text = "Sortie";
             this.btnSortie.UseVisualStyleBackColor = true;
+            this.btnSortie.Click += new System.EventHandler(this.btnSortie_Click);
             // 
             // frmConversion
             // 
