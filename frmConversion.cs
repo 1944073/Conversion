@@ -40,7 +40,15 @@ namespace Conversion
 
         private void btnDecinal_Click(object sender, EventArgs e)
         {
-            string Entree = txtEntree.Text;
+            string Entree;
+            int Sortie = 0;
+
+            Entree = txtEntree.Text;
+            //Conversion en binaire
+            if (Entree[0] == 'b')
+            {
+                Sortie = Entree / 2;
+            }
         }
     }
 }
